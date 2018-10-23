@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Lato";
+  height: 100vh;
+  .container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+}
+.container section {
+  flex-basis: 50%;
+}
+@import "info";
+@import "form";
+@import "media";
